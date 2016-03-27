@@ -13,8 +13,6 @@ nlp小白一枚，网上没有找到中文训练好的word2vec模型，自己动
 - 依赖：numpy, scipy, gensim, opencc, jieba
 
 
-from scratch
-
 ### 1.获取语料库
 - 搜狗实验室 http://www.sogou.com/labs/resources.html?v=1 (反正我是下载不下来)
 - 维基百科   https://dumps.wikimedia.org/zhwiki/latest/zhwiki-latest-pages-articles.xml.bz2 (办了信用卡我就去捐钱！！！)
@@ -58,13 +56,13 @@ python -m -d ' ' jieba corpus.zhwiki.simplified.done.txt > corpus.zhwiki.segwith
 
 生成 `corpus.zhwiki.segwithb.txt` （901.3M）
 
--  训练
+### 3训练
 `model = Word2Vec(sentences, size=400, window=5, min_count=5, workers=4)`
 详细api参考：http://radimrehurek.com/gensim/models/word2vec.html
 
 生成 zh_wiki_word2vec_model: 拿走不谢：https://yunpan.cn/cqAiJ5cckWq5z （提取码：f936）
 
-- 使用
+### 4使用
 
 ```python
 import gensim
@@ -75,3 +73,11 @@ for e in result:
 
 ```
 
+###参考与致谢
+1. https://code.google.com/archive/p/word2vec/
+2. https://github.com/piskvorky/gensim
+3. http://radimrehurek.com/gensim/models/word2vec.html
+4. https://github.com/fxsjy/jieba
+5. https://code.google.com/archive/p/opencc/wikis/Introduction.wiki
+6. http://licstar.net/archives/262
+7. http://www.52nlp.cn/
