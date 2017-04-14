@@ -1,4 +1,4 @@
-#中文word2vector词向量实现
+# 中文word2vector词向量实现
 
 nlp小白一枚，网上没有找到中文训练好的word2vec模型，自己动手丰衣足食
 
@@ -73,7 +73,7 @@ for e in result:
 
 ```
 
-###参考与致谢
+### 参考与致谢
 1. https://code.google.com/archive/p/word2vec/
 2. https://github.com/piskvorky/gensim
 3. http://radimrehurek.com/gensim/models/word2vec.html
@@ -81,3 +81,10 @@ for e in result:
 5. https://code.google.com/archive/p/opencc/wikis/Introduction.wiki
 6. http://licstar.net/archives/262
 7. http://www.52nlp.cn/
+
+
+---更新---
+
+前文提到了cnn nlp项目已经完结，将在7月底上传，
+前文提到的在线api已放弃，域名过期了，不打算续费，现使用免年费的github pages https://zishuaiz.github.io
+
