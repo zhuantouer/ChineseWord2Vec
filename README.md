@@ -60,7 +60,7 @@ python -m -d ' ' jieba corpus.zhwiki.simplified.done.txt > corpus.zhwiki.segwith
 `model = Word2Vec(sentences, size=400, window=5, min_count=5, workers=4)`
 详细api参考：http://radimrehurek.com/gensim/models/word2vec.html
 
-生成 zh_wiki_word2vec_model: 拿走不谢：https://yunpan.cn/cqAiJ5cckWq5z （提取码：f936）
+生成 zh_wiki_word2vec_model: 拿走不谢：https://yunpan.cn/cqAiJ5cckWq5z （提取码：f936）【已经失效，建议自行下载corpus训练】
 
 ### 4使用
 
