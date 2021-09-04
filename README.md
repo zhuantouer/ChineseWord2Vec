@@ -83,8 +83,4 @@ for e in result:
 7. http://www.52nlp.cn/
 
 
----更新---
-
-前文提到了cnn nlp项目已经完结，将在7月底上传，
-前文提到的在线api已放弃，域名过期了，不打算续费，现使用免年费的github pages https://zishuaiz.github.io
 
